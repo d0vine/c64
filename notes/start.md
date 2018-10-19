@@ -45,7 +45,9 @@ Please note how:
 - we tell the assembler where to write the program in memory - we need to know where the program can be stored, otherwise we can do some harm (like a CPU jam requiring a reset),
 - hex **values** (not addresses) are prepended with the `#` symbol,
 - current addresses are indicated as a prefix to an assembly mnemonic - this is **very** important, as what we input are **only the mnemonics and their operands**; addresses will be calculated automatically,
-- labels are prefixed with `Z` and can be used with `JMP` (so that we don't need to know the exact address at the moment of writing).
+- labels are prefixed with `Z` and can be used with `JMP` (so that we don't need to know the exact address at the moment of writing),
+- comments are indicated with `;` - those are only for your information, do not input them into the assembler (to save you some time),
+- a remark is added in parantheses - this is just to describe a side effect should there be any. 
 
 Monitor mode
 ------------
