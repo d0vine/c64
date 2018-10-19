@@ -27,3 +27,5 @@ Examples:
 We used an endless loop because otherwise the border would just flash and we wouldn't see anything.
 
 After this example a soft reset is required.
+
+![White border color](images/white_border.png)
